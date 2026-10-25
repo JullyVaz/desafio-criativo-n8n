@@ -1,0 +1,98 @@
+# Desafio Criativo: Planejando Automações com n8n Usando Apenas Bons Prompts
+
+## Passo 1 — Defina a automação desejada
+
+### O que fazer
+
+Quero criar uma automação no n8n para organizar e acompanhar oportunidades de emprego na área de tecnologia, registrando vagas, identificando requisitos importantes e enviando notificações sobre oportunidades compatíveis com meu perfil profissional.
+
+### Público ou responsável
+
+Profissional de tecnologia responsável pela busca de recolocação, organização das candidaturas e acompanhamento dos processos seletivos.
+
+### Resultado esperado
+
+Reduzir o trabalho manual na organização das oportunidades profissionais, manter um registro centralizado das vagas e candidaturas, facilitar o acompanhamento dos prazos e receber notificações sobre oportunidades alinhadas às competências e preferências profissionais.
+
+---
+
+## Passo 2 — Adicione contexto e regras
+
+### Contexto da automação
+
+A automação será utilizada por uma profissional com experiência em desenvolvimento Back-End, especialmente C#/.NET, e conhecimentos em Python, Java, APIs, bancos de dados e integração entre sistemas.
+
+A profissional também possui experiência anterior na área de Comércio Exterior e atualmente atua como perita judicial em Grafoscopia e Tecnologia da Informação. Busca oportunidades de recolocação profissional na área de tecnologia, considerando sua experiência e suas competências técnicas.
+
+O objetivo é facilitar a identificação e a organização de vagas compatíveis com seu perfil, acompanhar candidaturas e processos seletivos e receber notificações sobre oportunidades relevantes.
+
+### Regras importantes
+
+1. Registrar o título da vaga, a empresa, o link da oportunidade, a localização, a modalidade de trabalho e a data em que a vaga foi identificada.
+
+2. Priorizar oportunidades relacionadas a desenvolvimento Back-End, C#/.NET, Java, Python, APIs, bancos de dados e áreas correlatas de tecnologia, considerando os requisitos de cada vaga e a compatibilidade com o perfil profissional.
+
+3. Considerar a preferência por trabalho remoto ou híbrido na região de Campinas, São Paulo.
+
+4. Permitir o acompanhamento do status da candidatura, como identificada, candidatura realizada, entrevista, aprovada ou encerrada.
+
+5. Evitar registros duplicados da mesma oportunidade, utilizando o link da vaga como referência sempre que possível.
+
+6. Enviar notificações somente quando houver uma nova oportunidade relevante ou um prazo que exija atenção.
+
+7. Não realizar candidaturas automaticamente nem enviar dados pessoais sem autorização da usuária.
+
+8. Permitir que a automação comece com ferramentas simples e de fácil manutenção, como uma planilha e um canal de notificação.
+
+### Limitações
+
+A automação não deve presumir que uma vaga continua aberta sem verificar a informação disponível. A coleta automática de vagas dependerá das fontes utilizadas e das permissões de acesso. Na primeira versão, as oportunidades poderão ser inseridas manualmente por formulário ou webhook.
+
+---
+
+## Passo 3 — Monte o prompt final
+
+Atue como especialista em automação de processos com n8n e ajude a planejar uma automação para organizar e acompanhar oportunidades de emprego na área de tecnologia.
+
+O objetivo é reduzir o trabalho manual, centralizar informações sobre vagas e candidaturas e facilitar a identificação de oportunidades compatíveis com o perfil profissional da usuária.
+
+### Perfil profissional
+
+A usuária possui experiência em desenvolvimento Back-End, especialmente C#/.NET, e conhecimentos em Python, Java, APIs, bancos de dados e integração entre sistemas. Também possui experiência profissional anterior em Comércio Exterior e atua como perita judicial em Grafoscopia e Tecnologia da Informação.
+
+### Preferências profissionais
+
+Priorizar oportunidades de tecnologia com modalidade de trabalho remoto ou híbrido na região de Campinas, São Paulo, considerando vagas de desenvolvimento Back-End e áreas correlatas.
+
+### Requisitos funcionais
+
+- Registrar o título da vaga, a empresa, o link, a localização, a modalidade de trabalho, a data de identificação e o status da candidatura.
+- Organizar as oportunidades em uma planilha ou solução simples equivalente.
+- Identificar possíveis duplicidades.
+- Permitir o acompanhamento das etapas do processo seletivo.
+- Enviar notificações sobre novas oportunidades relevantes e prazos importantes.
+- Respeitar a privacidade dos dados e exigir autorização antes de realizar qualquer ação externa em nome da usuária.
+
+### Orientações para a solução
+
+1. Proponha um fluxo simples e viável no n8n, explicando a função de cada nó.
+
+2. Sugira uma forma de entrada de dados, como formulário ou webhook, e um local para armazenar as informações.
+
+3. Explique como validar os campos e evitar registros duplicados.
+
+4. Apresente uma estratégia de notificações e tratamento de erros.
+
+5. Priorize ferramentas acessíveis e uma implementação inicial que possa ser testada sem custos desnecessários.
+
+6. Diferencie os recursos nativos do n8n das integrações que dependem de serviços externos.
+
+7. Não presuma que o acesso automatizado a sites de emprego esteja disponível sem verificar suas possibilidades e restrições.
+
+8. Apresente primeiro uma versão mínima funcional e indique melhorias que possam ser implementadas posteriormente.
+
+### Resultado esperado
+
+Um plano de implementação claro, com a sequência dos nós do n8n, suas responsabilidades, os dados de entrada e saída, as integrações necessárias e os passos para testar a automação.
+
+Não execute candidaturas automaticamente. O objetivo inicial é organizar, acompanhar e notificar, mantendo a decisão final sob responsabilidade da usuária.
